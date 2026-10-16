@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-serif: 'Playfair Display', Georgia, serif;
+    --font-display: 'Cinzel', serif;
+
+    /* Emmanuel Ebot Mbi Foundation Official Logo Palette */
+    --logo-navy-dark: #0E1B32;
+    --logo-navy: #162846;
+    --logo-navy-light: #1E365D;
+    --logo-globe-blue: #4382CB;
+    --logo-globe-sky: #5B9AE5;
+    --logo-green: #509E60;
+    --logo-green-light: #6BB57A;
+    --logo-hands-terracotta: #BA692F;
+    --logo-hands-warm: #C37238;
+    --logo-hands-light: #DE884A;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #F8FAFC;
+    color: #1E293B;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, .font-serif-heading {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom subtle scrollbar in logo tones */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #EEF2F6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}

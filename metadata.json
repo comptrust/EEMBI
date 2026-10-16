@@ -1,0 +1,6 @@
+{
+  "name": "Emmanuel Ebot Mbi Foundation",
+  "description": "Official portal of the Emmanuel Ebot Mbi Foundation. Dedicated to empowering communities, advancing education, and providing humanitarian care across Cameroon, Côte d'Ivoire, and Africa in honor of Emmanuel Ebot Mbi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
